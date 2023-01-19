@@ -64,3 +64,12 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+# PHPCS
+```
+PHP_CS_FIXER_IGNORE_ENV=1 ./vendor/bin/php-cs-fixer fix app/Http/Controllers/Auth/AuthenticatedSessionController.php
+```
+# Debug
+```
+\Log::debug($user);
+```
